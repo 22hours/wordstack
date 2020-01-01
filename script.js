@@ -1,4 +1,4 @@
-function matching(user) {
+function chromeView(user) {
     chrome.tabs.executeScript(
         {
             code: 'document.querySelector("body").innerText;'
@@ -18,7 +18,7 @@ function matching(user) {
 chrome.storage.sync.get(function(data) {
     document.querySelector('#user').value = data.userWords;
 
-    matching(data.userWords);
+    chromeView(data.userWords);
 });
 
 document.querySelector('#user').addEventListener('change', function() {
@@ -28,5 +28,5 @@ document.querySelector('#user').addEventListener('change', function() {
         userWords: user
     });
 
-    matching(user);
+    chromeView(user);
 });
