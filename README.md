@@ -1,5 +1,10 @@
 # wordstack
-View translations as you browse the web.
+웹에서 단어 학습율을 보여준다.
+-> 웹에서 보여지는 학습 문장들을 저장하고, 날짜에 맞게 분류한다.
+![image](https://user-images.githubusercontent.com/16419202/71640949-5393b000-2cd7-11ea-988c-05d60a772eca.png)
+
+# version-history
+- 해당 Repository Wiki 참고
 
 # to-do
 - Google 번역 API 적용
